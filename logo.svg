@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xml:space="preserve" viewBox="0 0 2961 5000">
+-->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://web.resource.org/cc/"
+     viewBox="-3500 -500 10666 6000">
+    <defs>
+        <style type="text/css">
+            :root {--pencil-color:#2B2A29; --pencil-thin:30; --pencil-large:70.55; --red_color:#CC0000;}
+            .heart {stroke:var(--red_color); stroke-width:var(--pencil-thin);}
+            .ring_in {stroke-dasharray:500,700; stroke:var(--red_color); stroke-width:400;}
+            .ring {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .floor {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .legs {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .back {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .fwd {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .head {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .rwd {stroke:var(--pencil-color); stroke-width:var(--pencil-large);}
+            .pencil {fill:none; fill-rule:nonzero;}
+        </style>
+    </defs>
+    <g id="logo_we" transform="scale(-1, 1) translate(300, 2500)">
+        <polyline class="legs pencil" points="1027 2343 1261 2343 907 1778 1650 1452 1629 1813 2266 2343 2025 2343"/>
+        <path class="back pencil" d="m1650 1452c12-249-242-766-602-1e3"/>
+        <path class="fwd pencil" d="m1215 587c-265 109-703 138-966 128l-2-176"/>
+        <path class="head pencil" d="m915 35c127 0 230 103 230 230s-103 230-230 230-230-103-230-230 103-230 230-230z"/>
+        <path class="rwd pencil" d="m1215 587c333-45 644 44 644 400"/>
+    </g>
+    <g id="logo_you" transform="scale(-1, 1) translate(-2500, -50)">
+        <polyline class="legs pencil" points="1027 2343 1261 2343 907 1778 1650 1452 1629 1813 2266 2343 2025 2343"/>
+        <path class="back pencil" d="m1650 1452c12-249-242-766-602-1e3"/>
+        <path class="fwd pencil" d="m1215 587c-265 109-703 138-966 128l-2-176"/>
+        <path class="head pencil" d="m915 35c127 0 230 103 230 230s-103 230-230 230-230-103-230-230 103-230 230-230z"/>
+        <path class="rwd pencil" d="m1215 587c333-45 644 44 644 400"/>
+    </g>
+    <g id="logo_floor">
+        <polyline class="floor pencil" points="5450 450 -450 4550 -1040 4960 -3000 4960"/>
+        <polyline class="floor pencil" points="-450 4400 -450 2450 2500 2350 -450 4400 -450 2450"/>
+    </g>
+    <g id="logo_ring">
+        <!--
+        <path class="ring pencil" fill="#CC0000" d="M3300,700 m-950,0 l400,0 a550,550 0,0,1 100,-300l-340,-240a950,950,0,0,0 100,300z" />
+        <path class="ring_in pencil"  d="M3300,700 m-750,0 a750,750 0,0,1 750,-750" />
+        -->
+        <circle class="ring_in pencil" cx="3300" cy="700" r="750" />
+        <circle class="ring pencil" cx="3300" cy="700" r="950" />
+        <circle class="ring pencil" cx="3300" cy="700" r="550" />
+    </g>
+    <g id="logo_box" transform="scale(2, 2) translate(-190, 1300)">
+        <path class="heart pencil" d="M312.334,231.428c2.005,2.069,4.779,3.264,7.68,3.264s5.675-1.195,7.68-3.264l100.139-104.064
+	 c13.013-13.483,20.181-31.424,20.181-52.459c0-36.565-24.811-68.331-57.707-73.899c-29.419-5.013-56.107,9.301-70.293,32.491
+	 c-14.187-23.211-40.896-37.525-70.293-32.491c-32.896,5.568-57.707,37.333-57.707,75.883c0,19.072,7.168,36.992,20.16,50.475
+	 L312.334,231.428z"/>
+        <path class="arm" d="M124.686,281.028c-18.283-17.323-91.392-22.933-113.365-24.235c-2.795-0.021-5.803,0.875-7.936,2.88
+	 c-2.155,2.027-3.371,4.843-3.371,7.787v192c0,5.888,4.779,10.667,10.667,10.667h64c4.608,0,8.704-2.965,10.155-7.36
+	 c1.557-4.779,38.315-117.589,43.136-173.056C128.27,286.468,127.033,283.268,124.686,281.028z"/>
+        <path class="hand" d="M510.883,412.015c-14.528-29.035-48.213-44.565-79.723-36.672l-48.235,12.053c0.725,4.885,1.088,10.005,1.088,15.36
+	 v3.371c0,14.699-9.984,27.477-24.256,31.04l-28.715,7.168c-7.552,1.899-15.381,2.859-23.275,2.859
+	 c-6.379,0-12.715-0.619-18.816-1.856l-92.565-18.517c-5.781-1.152-9.536-6.763-8.384-12.544
+	 c1.173-5.803,6.891-9.493,12.544-8.363l92.587,18.517c10.624,2.133,22.165,1.856,32.704-0.768l28.736-7.168
+	 c4.779-1.216,8.107-5.461,8.107-10.368v-3.371c0-3.904-0.256-7.552-0.704-11.051c-0.128-1.003-0.363-1.899-0.533-2.88
+	 c-0.427-2.475-0.896-4.907-1.579-7.189c-0.299-1.003-0.661-1.92-1.003-2.88c-0.747-2.112-1.579-4.181-2.581-6.123
+	 c-0.448-0.853-0.939-1.685-1.429-2.517c-1.109-1.899-2.347-3.712-3.733-5.44c-0.555-0.704-1.131-1.408-1.749-2.069
+	 c-1.536-1.728-3.243-3.349-5.077-4.885c-0.64-0.533-1.259-1.088-1.941-1.621c-2.048-1.557-4.309-3.008-6.677-4.373
+	 c-0.64-0.363-1.237-0.789-1.92-1.131c-2.752-1.472-5.739-2.773-8.917-4.011c-0.469-0.171-0.875-0.384-1.344-0.576
+	 c-3.755-1.387-7.787-2.624-12.117-3.712l-152.896-33.984c-2.859-0.619-5.803-0.064-8.235,1.557s-4.075,4.16-4.587,7.019
+	 c-7.68,43.712-24.341,100.437-33.579,130.368c-1.707,5.547,1.323,11.435,6.805,13.269l122.645,40.896
+	 c16.427,6.208,29.184,10.603,44.245,10.603c0,0,0,0,0.021,0c21.888,0,46.677-9.28,102.592-32.192L505.721,426.5
+	 c2.624-1.195,4.672-3.413,5.653-6.144C512.377,417.626,512.185,414.618,510.883,412.015z"/>
+    </g>
+    <g>
+        <text x="100" y="100" font-size="1000" fill="var(--red_color)" transform="rotate(-35 0,0) translate(-3000,4200)">Kitas helfen Kitas!</text>
+    </g>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+                <dc:publisher>
+                    <cc:Agent rdf:about="http://openclipart.org/">
+                        <dc:title>Openclipart</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+            </cc:Work>
+            <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+                <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+            </cc:License>
+        </rdf:RDF>
+    </metadata>
+</svg>
