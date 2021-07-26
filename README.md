@@ -1,8 +1,8 @@
-# KitashelfenKitas
+# Kitas-helfen-Kitas
 
 ## Über uns
 
 ## Was wir anbieten
 
-## Beitrag
+## Wie du etwas beitragen kannst
 
