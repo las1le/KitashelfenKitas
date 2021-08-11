@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Um Hilfe bitten</title>
+</head>
+<body>
+    <p><a href="{{ url_for('index') }}">Zurück zur Hauptseite</a></p>
+    <h1>Um Hilfe bitten</h1>
+    <form>
+        <p>
+            <label for="fname">Vorname:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+        </p>
+
+        <p>
+            <label for="lname">Nachname:</label><br>
+            <input type="text" id="lname" name="lname">
+        </p>
+
+        <p>
+            <label for="lname">Email:</label><br>
+            <input type="text" id="email" name="lname">
+        </p>
+
+        <p>
+            <label for="lname">Kita Addresse:</label><br>
+            <input type="text" id="kita_address" name="lname">
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
